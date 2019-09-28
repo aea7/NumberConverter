@@ -13,7 +13,7 @@ import io.swagger.annotations.ApiOperation;
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/option")
-@Api("This is the option controller of REST api")
+@Api("This is the option controller of the REST api")
 public class OptionsController {
 
     @Autowired
