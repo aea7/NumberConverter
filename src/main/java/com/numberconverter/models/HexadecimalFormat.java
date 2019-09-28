@@ -12,7 +12,7 @@ public class HexadecimalFormat {
 
     public String convertToHexadecimal(String sourceFormat, String numberRepresentation) {
         switch (sourceFormat) {
-            case "Roman":
+            case "Hexadecimal":
                 return convertFromRomanToHexadecimal(sourceFormat, numberRepresentation);
             case "Binary":
                 return convertFromBinaryToHexadecimal(numberRepresentation);
